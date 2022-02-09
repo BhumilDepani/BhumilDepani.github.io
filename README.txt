@@ -1,1 +1,1 @@
-This is a personal website of Bhumil Depani.
+This is a personal website and portfolio of Bhumil Depani.
