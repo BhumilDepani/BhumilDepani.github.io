@@ -25,38 +25,42 @@
 									<a href="index.html" class="logo"><strong>Bhumil Depani</strong></a>
 									<ul class="icons">
 										<!--<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
-										<li><a href="https://www.linkedin.com/in/bhumil-depani-779a32147/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-										<li><a href="https://github.com/BhumilDepani" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-										<li><a href="https://bhumil-depani.medium.com/" target="_blank" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
-										<li><a href="https://www.quora.com/profile/Bhumil-Depani" target="_blank" class="icon brands fa-quora"><span class="label">Quora</span></a></li>
+										<li><a href="https://www.linkedin.com/in/bhumil-depani-779a32147/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://github.com/BhumilDepani" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="https://bhumil-depani.medium.com/" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+										<li><a href="https://www.quora.com/profile/Bhumil-Depani" class="icon brands fa-quora"><span class="label">Quora</span></a></li>
 									</ul>
 								</header>
 
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>Achievements</h1>
+										<h1>Extra Curriculum</h1>
 									</header>
 
 									<!--<span class="image main"><img src="images/pic11.jpg" alt="" /></span>-->
-
-									<hr class="major" />
-
-									<h2>Innovation Competition Challenge</h2>
-									<p>I with my team at DRISHTI, participated in Innocation Competition Challenge held at NIT Uttarakhand. We demonstrated our Brailled Printer Project there and won 11th rank amongst 75+ participating teams.</p>
+									<h2>Technokruti</h2>
+									<p>In the Technokruti techfest, I attended a workshop conducted by S. N. Patel Institute of Technology & Research Centre. In the session, I learnt how to build model rockets and some basic avionics systems.</p>
 									<ul class="actions">
-														<li><a href="https://drive.google.com/file/d/1hjZZqMynSjWMMaYW5rdDpG4bfE12OkN2/view?usp=sharing" class="button primary">CERTIFICATE</a></li>
+										<li><a href="https://drive.google.com/file/d/1yIZAmqLJxnlSOj35jE2LcoMNcbUqzpyr/view?usp=sharing" class="button primary">Certificate</a></li>
 														
-											</ul>
-									<hr class="major" />
-
-									<h2>Initiative</h2>
-									<p>As I previously stated, I had a novel idea to build an E-writer as an alternative to paper to address environmental issues caused by the paper manufacturing industry. I attempted to launch a start-up and also secured seed funding from <a href="http://ashine.in/"><span class="label">ASHINE</span></a> worth of 25k INR.</p>
+									</ul>
 									<hr class="major" />
 									
-									<h2><a href="https://indiancc.nic.in/"><span class="label">National Cadet Corps (NCC)</span></a></h2>
-									<p>During my secondary school years, I was an NCC cadet. I also completed a ten-day camp and received "A" certificate. My time at NCC taught me the value of discipline, excellent physical and mental health, and hard work in order to be successful.</p>								
-
+									<h2>Internet of Things Workshop</h2>
+									<p>In the first semester of my undergrade, I attended one workshop, which was based on the Internet of Things and was hosted by E-cell IIT Bombay. In the end, we completed one small IoT project. This workshop exposed me to the worlds of embedded and IoT.</p>
+									<ul class="actions">
+										<li><a href="https://drive.google.com/file/d/1ADXsJJhpFcGxhufzTc-5-hP01ESTPb1N/view?usp=sharing" class="button primary">Certificate</a></li>
+														
+									</ul>
+									<hr class="major" />
+									
+									<h2>Science Exhibition</h2>
+									<p>In higher secondary school, I have taken part in the Science fair every year.  On the occasion of Vikram Sarabhai's birth anniversary, my school, Diwan Ballubhai, hosts a scientific fair. In the 12th grade science fair, we built a smart barrier to adjust the flow of water based on our needs. We used  electromagnet and an Iron plat in the system and on controlling current through electromagnet we can control water-flow. In the eleventh grade, we created a cooling system that uses sustainable energy sources. To limit heat dissipation, we wrapped the system with insulator material. Furthermore, we have used solar panels to generate energy and to regulate the temperature of a system.</p>
+									<ul class="actions">
+										<li><a href="https://drive.google.com/file/d/1sxFMNuKDkOdkSq8ngonHlx9I80ik_v3V/view?usp=sharing" class="button primary">12th Grade Certificate</a></li>
+										<li><a href="https://drive.google.com/file/d/1y6THnQY4gcxLYr8Farjcw61W01btZ6AT/view?usp=sharing" class="button primary">11th Grade Certificate</a></li>														
+									</ul>
 								</section>
 
 						</div>
