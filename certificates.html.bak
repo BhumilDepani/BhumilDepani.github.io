@@ -35,28 +35,41 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>Achievements</h1>
+										<h1>Certifications</h1>
 									</header>
 
 									<!--<span class="image main"><img src="images/pic11.jpg" alt="" /></span>-->
 
+									<p>Certifications I achieved during my graduation and my time at Accenture.</p>
+									<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+									<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>-->
 									<hr class="major" />
 
-									<h2>Innovation Competition Challenge</h2>
-									<p>I with my team at DRISHTI, participated in Innocation Competition Challenge held at NIT Uttarakhand. We demonstrated our Brailled Printer Project there and won 11th rank amongst 75+ participating teams.</p>
-									<ul class="actions">
-														<li><a href="https://drive.google.com/file/d/1hjZZqMynSjWMMaYW5rdDpG4bfE12OkN2/view?usp=sharing" class="button primary">CERTIFICATE</a></li>
-														
-											</ul>
-									<hr class="major" />
-
-									<h2>Initiative</h2>
-									<p>As I previously stated, I had a novel idea to build an E-writer as an alternative to paper to address environmental issues caused by the paper manufacturing industry. I attempted to launch a start-up and also secured seed funding from <a href="http://ashine.in/"><span class="label">ASHINE</span></a> worth of 25k INR.</p>
-									<hr class="major" />
+									<h2>GCP Associate Cloud Engineer</h2>
+									<p>I cleared the certification exam of Google Cloud Platform. Now, I am Google certified Associate Cloud Engineer.</p>
+									<p>I learned basic services like Cloud Storage, Compute Engine, Networking, Security, Kubernetes.</p>
+									<p>I understood Cloud IoT Core service and implemented dataflow pipeline for telemetry data gathering and analysis.</p>
+									<p>
+										<ul class="actions">
+													<li><a href="https://www.credential.net/065568e9-af95-4855-b718-a63b93853c1c?key=a8767a3f063c357ac5b4fe97a8bf510af73b07c1b2600c4b601cdf92e9e7307a" class="button primary">Verify Certificate</a></li>
+													
+										</ul>
+									</P>
+									<span class="image fit"><img src="images/gcp.PNG" alt="" /></span>
 									
-									<h2><a href="https://indiancc.nic.in/"><span class="label">National Cadet Corps (NCC)</span></a></h2>
-									<p>During my secondary school years, I was an NCC cadet. I also completed a ten-day camp and received "A" certificate. My time at NCC taught me the value of discipline, excellent physical and mental health, and hard work in order to be successful.</p>								
+									<hr class="major" />
 
+									<h2>LabVIEW Associate Developer</h2>
+									<p>LabVIEW is a systems engineering software designed by National Instruments for applications that require test, measurement, and control with rapid access to hardware and data insights. I am a Certified LabVIEW Associate Developer.</p>
+									<p>I gave certification exam in May of 2020 and cleared in the first attempt.</p>
+									<p>I studied about gathering data from various sources, processing these signals/data, and visualizing the output.</p>
+									<p>
+										<ul class="actions">
+													<li><a href="https://www.credly.com/badges/ec34022a-d335-413c-8f90-83064029a8e9/linked_in_profile" class="button primary">Verify Certificate</a></li>
+													
+										</ul>
+									</P>
+									<span class="image fit"><img src="images/labview.JPG" alt="" /></span>
 								</section>
 
 						</div>
@@ -91,7 +104,6 @@
 												<li><a href="skills.html">Skill Set</a></li>
 												<li><a href="extra-curriculum.html">Extra Curriculum</a></li>
 												<li><a href="certificates.html">Certifications</a></li>
-												<li><a href="books.html">Academic Literature</a></li>
 											</ul>
 										</li>
 										<li><a href="https://drive.google.com/file/d/1gyjonLADtap1SOvNv66evju53vVobOIK/view?usp=sharing">Resume</a></li>

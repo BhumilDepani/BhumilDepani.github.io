@@ -35,28 +35,54 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>Achievements</h1>
+										<h1>Skill set</h1>
 									</header>
 
 									<!--<span class="image main"><img src="images/pic11.jpg" alt="" /></span>-->
-
-									<hr class="major" />
-
-									<h2>Innovation Competition Challenge</h2>
-									<p>I with my team at DRISHTI, participated in Innocation Competition Challenge held at NIT Uttarakhand. We demonstrated our Brailled Printer Project there and won 11th rank amongst 75+ participating teams.</p>
-									<ul class="actions">
-														<li><a href="https://drive.google.com/file/d/1hjZZqMynSjWMMaYW5rdDpG4bfE12OkN2/view?usp=sharing" class="button primary">CERTIFICATE</a></li>
-														
-											</ul>
-									<hr class="major" />
-
-									<h2>Initiative</h2>
-									<p>As I previously stated, I had a novel idea to build an E-writer as an alternative to paper to address environmental issues caused by the paper manufacturing industry. I attempted to launch a start-up and also secured seed funding from <a href="http://ashine.in/"><span class="label">ASHINE</span></a> worth of 25k INR.</p>
-									<hr class="major" />
-									
-									<h2><a href="https://indiancc.nic.in/"><span class="label">National Cadet Corps (NCC)</span></a></h2>
-									<p>During my secondary school years, I was an NCC cadet. I also completed a ten-day camp and received "A" certificate. My time at NCC taught me the value of discipline, excellent physical and mental health, and hard work in order to be successful.</p>								
-
+									<div class="row">
+											<div class="col-6 col-12-small">
+												<h2>Languages</h2>
+												<ul>
+													<li>Embedded C++</li>
+													<li>Embedded C</li>
+													<li>RTOS</li>
+													<li>C</li>
+													<li>C++</li>
+													<li>Python</li>													
+													<li>Java</li>													
+												</ul>											
+											</div>
+											<div class="col-6 col-12-small">
+												<h2>Software</h2>
+												<ul>
+													<li>Keil uVision</li> 
+													<li>Atmel Studio</li>
+													<li>Eagle</li>
+													<li>Proteus Design Suite</li>
+													<li>Cisco Packet Tracer</li>
+													<li>Matlab</li>
+												</ul>	
+											</div>
+											<!-- Break -->
+											<div class="col-6 col-12-small">
+												<h2>Tools & Libraries</h2>
+												<ul>
+													<li>git</li>
+													<li>Github</li>
+													<li>OpenCV</li>
+													<li>pandas</li>
+													<li>NumPy</li>													
+													<li>Matplotlib</li>
+												</ul>	
+											</div>
+											<div class="col-6 col-12-small">
+												<h2>Microcontrollers</h2>
+												<ul>
+													<li>8051(AT89S52, AT89C52)</li> 
+													<li>AVR (ATmega328, ATmega2560)</li>
+													<li>ARM Cortex-M (STM32F407)</li>
+												</ul>	
+											</div>
 								</section>
 
 						</div>
@@ -91,7 +117,6 @@
 												<li><a href="skills.html">Skill Set</a></li>
 												<li><a href="extra-curriculum.html">Extra Curriculum</a></li>
 												<li><a href="certificates.html">Certifications</a></li>
-												<li><a href="books.html">Academic Literature</a></li>
 											</ul>
 										</li>
 										<li><a href="https://drive.google.com/file/d/1gyjonLADtap1SOvNv66evju53vVobOIK/view?usp=sharing">Resume</a></li>
