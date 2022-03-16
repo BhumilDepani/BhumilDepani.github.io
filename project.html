@@ -115,7 +115,7 @@
 									
 									<h2>POV Clock</h2>
 									<p>Due to persistence of vision when we see a fast moving or revolving led light, we see a trail of light. Due to this, when we mount an LED on a strip and by revolving the strip, we see a circle of lighting trail. Like this, we can also mount more than two LEDs and obtain that many circles. When we mount seven to eight LEDs in line, we find a solid circle formed. For the POV clock, we used seven LEDs to print 0 to 9 digits.</p>
-									<p>For the POV clock, we should read time from the clock(real time clock) and give it to the microcontroller. A microcontroller gives commands to LEDs to turn on and off to make different digits which can show time in HH:MM:SS formate like a simple clock we see in everyday life.</p> 
+									<p>For the POV clock, the first step for microcontroller is to read time from real-tile clock (RTC). We implemented I2C (Inter-Integrated Circuit) protocol, in which microcontroller acted as a master and RTC as a slave. A microcontroller gives commands to LEDs to turn on and off to make different digits which can show time in HH:MM:SS formate like a simple clock we see in everyday life.</p> 
 									<p>
 									<ul class="actions">
 												<li><a href="https://drive.google.com/file/d/1rqbpq5JChMzEnjcm7gcFzOo7uPjudGDn/view?usp=sharing" target="_blank" class="button primary">Report</a></li>
