@@ -52,13 +52,52 @@
 													<li>3 Analog inputs</li>
 												</ul>
 												</li>
-
-												
 											</ul>
-										</p>									
-										<p>Github repository of OSAVC Project: <a href="https://github.com/uccross/open-source-autonomous-vehicle-controller" target="_blank">OSAVC</a><br>My contribution to the repository: <a href="https://github.com/uccross/open-source-autonomous-vehicle-controller/tree/dev_sensor_driver" target="_blank">dev_sensor_driver</a></p>
-										<p>Visit <a href="gsoc.html" target="_blank">here</a> to get more information regarding project.</p>						
-										<p>For more information refer Documentation <a href="https://docs.google.com/document/d/11n8f0wsvpb11dUyd7YGDXHZnW2rh-Ypx/edit?usp=sharing&ouid=115758239326845162531&rtpof=true&sd=true" target="_blank">here.</a></p>
+										</p>
+										<hr class="major" />
+										<h2>Development on Raspberry Pi Pico</h2>
+										<p><span class="image right"><img src="../images/pico-program.jpg" alt="" /></span>
+										Get Started with Pico: <a href="https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf" target="_blank">here</a>
+										<br>To setup development environment in Windows for Raspberry Pi Pico follow the section <i>9.2 Building on MS Windows.</i>
+										<br>According to the section, we need,
+										<ul type="1">
+											<li>ARM GCC Compiler</li>											
+											<li>CMake</li>
+											<li>VS Code</li>
+											<li>Python 3.9</li>
+											<li>Git</li>
+											<li>pico-sdk</li>
+											<li>pico-examples</li>
+											<li>Need to download and build picotool</li>
+											<li>Need to download and build picoprobe</li>
+											<li>To build a project – Cmake, it is a cross platform tool to build the software</li>
+											<li>GNU Embedded Toolchain for ARM</li>
+										</ul>
+										<br>To install above software, refer get startd book above.
+										
+										<hr class="major" />
+										<h2>Multiple cores in Pico</h2>
+										<br>As we know that Pico is a dual core microcontroller. Name of its cores are <i>core0</i> and <i>core1</i>. We tried measuring distnace using LiDAR on <i>core0</i> and encoder on <i>core1</i>.
+										<p style="font-size:10px">
+										<br><br>start and stop time for LiDAR:   50169441,   50172482
+											<br>Duration for LiDAR:       3041
+											<br>start and stop time for Encoder:   50177459,   50177519
+											<br>Duration for Encoder:         60
+											<br>Distance at -11000 angle is        211; Real Angle: 9000</p>
+											
+										But, as you can see LiDAR is taking 3 milliseconds to measure a distnace and encode is taking 60 microseconds. So, it would be more efficient in terms of power consumption and time overhead to measure distance and angle on the same core. So, dropped idea of using multiple cores.
+										
+										<hr class="major" />
+										<h2>Watchdog Functionality</h2>
+										<br>In Pico Watchdog LOAD/Counter register is of 23 bits. So, maximum 0x7fffff = 83,88,607 count could be there.
+										This count decreases with each microsecond tick.
+										So, 8388607 microseconds is the highest delay we can have.
+										Just need to enable the Watchdog timer using watchdog_enable() function and reset the counter to the required microseconds using watchdog_update() function.
+										But, we just requires Watchdog timer for the mode operation. That’s why after reaching to the input angle, we are disabling the Watchdog timer.
+										But, C/C++ SDK does not have a function to disable the Watchdog timer. So, we need to require to write one by ourselves to access internal CTRL register of Watchdog timer at address of 0x40058000.
+
+										<hr class="major" />
+										<p>For more information refer <a href="https://docs.google.com/document/d/11n8f0wsvpb11dUyd7YGDXHZnW2rh-Ypx/edit?usp=sharing&ouid=115758239326845162531&rtpof=true&sd=true" target="_blank">documentation.</a></p>
 										
 								</section>
 								<button style="float: right;" type="button"><a href="../gsoc.html#pico">Back</a></button><br>
