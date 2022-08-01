@@ -31,19 +31,43 @@
 										<li><a href="https://www.quora.com/profile/Bhumil-Depani" target="_blank" class="icon brands fa-quora"><span class="label">Quora</span></a></li>
 									</ul>
 								</header>
-								<br><button style="float: right;" type="button"><a href="../gsoc.html">Back</a></button>
+								<br><button style="float: right;" type="button"><a href="../gsoc.html#lidar">Back</a></button>
 							<!-- Content -->
 								<section>										
 										<h2>Light Detection and Ranging (LiDAR)</h2>
 										<p><span class="image right"><img src="../images/lidar.jpg" alt="" /></span>Specification of V3HP LiDAR:
 										<ul>
 											<li>LiDAR is a ranging sensor</li>
+											<li>High-speed Optical Distance Measurement Sensor</li>
+											<li>Minimum measurement distance – 5 cm</li>
+											<li>Maximum measure distance – 40 metre</li>
+											<li>scan rate – 300 RPM</li>
+											<li>scan resolution – 1°</li>
+											<li>resolution: 1 cm</li>
+											<li>Measurement Speed (Update Rate) – Greater than 1 kHz</li>
+											<li>User configurability allows adjustment between accuracy, operating range and measurement time</li>
+											<li>Communicates via I2C and PWM</li>
+											<li>I2C: Fast-mode (400 kilobits/second), default 7-bit address 0x62, Internal register access and control</li>
+											<li>Laser wavelength – 905 nm</li>
+											<li>Pulse width - 0.5 μs (50% duty cycle)</li>
+											<li>LiDAR measures velocity by calculating the difference between two frames.</li>
+
 										</ul>
-										</p>									
-										<p>Github repository of OSAVC Project: <a href="https://github.com/uccross/open-source-autonomous-vehicle-controller" target="_blank">OSAVC</a><br>My contribution to the repository: <a href="https://github.com/uccross/open-source-autonomous-vehicle-controller/tree/dev_sensor_driver" target="_blank">dev_sensor_driver</a></p>
-										<p>Visit <a href="gsoc.html" target="_blank">here</a> to get more information regarding project.</p>						
+										</p>
+										<h2>I2C Hardware Connection</h2>
+										<img src="../images/lidar-i2c.jpg" alt="No image available." width="400" height="700">
+										<br><br><br>
+										<h2>V3HP LiDAR Internal Register Address Map</h2>
+										<img src="../images/lidar-register.jpg" alt="No image available." width="800" height="700">
+										
+										<br><br><br>
+										<h2>Useful Resources</h2>
+										Garmin V3HP LiDAR : <a href="https://www.garmin.com/en-US/p/578152/pn/010-01722-10" target="_blank">Official Website</a>
+										<br>LiDAR Arduino Library: <a href="https://github.com/garmin/LIDARLite_Arduino_Library" target="_blank">repository</a>
+										<br>LiDAR manual: <a href="https://static.garmin.com/pumac/LIDAR-Lite_v3HP_Instructions_EN.pdf" target="_blank">here</a>
+										<br><br><br><p>For more information refer <a href="https://docs.google.com/document/d/11n8f0wsvpb11dUyd7YGDXHZnW2rh-Ypx/edit?usp=sharing&ouid=115758239326845162531&rtpof=true&sd=true" target="_blank">documentation.</a></p>
 								</section>
-								<button style="float: right;" type="button"><a href="../gsoc.html">Back</a></button><br>
+								<button style="float: right;" type="button"><a href="../gsoc.html#lidar">Back</a></button><br>
 
 						</div>
 					</div>
