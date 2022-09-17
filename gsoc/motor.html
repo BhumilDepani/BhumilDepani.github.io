@@ -40,19 +40,37 @@
 											<li>One of the benefits of using a servo motor is one always know at what position it is in. It got feedback mechanism built inside.</li>
 											<li>Servo makes a close loop system. As servo motor includes feedback mechanism.</li>
 											<li>Servo motor comprise of:
-											<li><ul>
+											<ul>
 												<li>Control circuit</li>
 												<li>Stator and rotor (a regular motor)</li>
 												<li>Output Shaft</li>
 												<li>Amplifier</li>
 												<li>Encoder or Resolver (positional feedback)</li>
-											</ul></li>
+											</ul>
 											<li>Output shaft of servo motor can be moved to a particular angle, position and velocity.</li>	
 											<li>Servo uses absolute positioning.</li>
 											<li>With servo, we can target at which angle we want servo to rotate. This is called absolute positioning. This is contrast with Stepper motor, where relative positioning is being used. The next position of the motor would be result of previous position and present input.</li>
 										</ul>											
 										</p>
 										<h2>Controlling Servo Motor with Rasberry Pi Pico</h2>
+										<h4>Connection between Servo Motor and Raspberry Pi Pico</h4>
+										<ul>
+											<li>Brown wire – Ground wire connected to the ground of system</li>
+											<li>Red wire – Powers the motor typically +5V is used</li>
+											<li>Orange Wire – PWM signal is given in through this wire to drive the motor</li>
+										</ul>
+										<h4>PWM Control</h4>
+										<ul>
+											<li>PWM Frequency for MG90S should be: 50 Hz</li>
+											<li>PWM Period is: 20 ms</li>
+											<li>The RP2040 PWM block has 8 identical slices. Each slice can drive two PWM output signals, or measure the frequency or duty cycle of an input signal. This gives a total of up to 16 controllable PWM outputs. All 30 GPIOs can be driven by the PWM block.</li>
+											<li>The PWM hardware functions by continuously comparing the input value to a free-running counter. This produces a toggling output where the amount of time spent at the high output level is proportional to the input value. The fraction of time spent at the high signal level is known as the duty cycle of the signal.</li>
+											<li>Pico system clock has 125 MHz frequency.</li>
+										</ul>
+										<br><br><br>
+										<h2>Useful Resources</h2>
+										MG90S Servo Motor Datasheet: <a href="https://www.electronicoscaldas.com/datasheet/MG90S_Tower-Pro.pdf" target="_blank">Datasheet</a>									
+										<br><br><br><p>For more information refer <a href="https://docs.google.com/document/d/11n8f0wsvpb11dUyd7YGDXHZnW2rh-Ypx/edit?usp=sharing&ouid=115758239326845162531&rtpof=true&sd=true" target="_blank">documentation.</a></p>
 								</section>
 								<button style="float: right;" type="button"><a href="../gsoc.html#motor">Back</a></button><br>
 						</div>
