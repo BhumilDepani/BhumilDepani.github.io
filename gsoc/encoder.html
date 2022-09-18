@@ -43,14 +43,25 @@
 										<li>A standard 4-wire SPI serial interface allows a host microcontroller to read 14-bit absolute angle position data from the AS5047D and to program non-volatile settings without a dedicated programmer.</li>
 									</ul>
 									</p>
+									<br><br><br><br><br><br><br><br>
+									<hr class="major" />
 									<p><span class="image right"><img src="../images/encoder-internal.png" alt="" /></span>Internal mechanism of AS5047D encoder.
 									
 									<ul>
-										
+										<li>The AS5047D is a Hall-effect magnetic sensor.</li>
+										<li>The signals from the Hall sensors are amplified and filtered by the analog front-end (AFE)</li>
+										<li>Then converts into Digital signal.</li>
+										<li>The output of the ADC is processed by the hardwired CORDIC (coordinate rotating digital computer) block to compute the angle and magnitude of the magnetic vector.</li>
+										<li>The intensity of the magnetic field (magnitude) is used by the automatic gain control (AGC) to adjust the amplification level for compensation of the temperature and magnetic field variations.</li>
+										<li>The internal 14-bit resolution is available by readout register via the SPI interface.</li>
 									</ul>
+									<hr class="major" />
+									<h2>Useful Resources</h2>
+									AS5047D Datasheet: <a href="https://ams.com/documents/20143/36005/AS5047D_DS000394_2-00.pdf/c7225c06-112f-82c5-4471-17a2711a7f0e" target="_blank">Datasheet by ams</a>
+									<br>Board Manual: <a href="https://ams.com/documents/20143/36005/AS5047D_UG000247_1-00.pdf" target="_blank">Manual</a>
+									<br><br><br><p>For more information refer <a href="https://docs.google.com/document/d/11n8f0wsvpb11dUyd7YGDXHZnW2rh-Ypx/edit?usp=sharing&ouid=115758239326845162531&rtpof=true&sd=true" target="_blank">documentation.</a></p>
 								</section>
 								<button style="float: right;" type="button"><a href="../gsoc.html#encoder">Back</a></button><br>
-
 						</div>
 					</div>
 
