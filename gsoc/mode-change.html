@@ -31,15 +31,26 @@
 										<li><a href="https://www.quora.com/profile/Bhumil-Depani" target="_blank" class="icon brands fa-quora"><span class="label">Quora</span></a></li>
 									</ul>
 								</header>
-								<br><button style="float: right;" type="button"><a href="../gsoc.html">Back</a></button>
+								<br><button style="float: right;" type="button"><a href="../gsoc.html#modechange">Back</a></button>
 							<!-- Content -->
 								<section>										
-										<h2><a href="https://summerofcode.withgoogle.com/"><span class="label">Google Summer of Code 2022</span></a></h2>
-										<p><span class="image right"><img src="images/cross.jpeg" alt="" /></span>I have been selected to contribute to develope <a href="https://summerofcode.withgoogle.com/programs/2022/projects/3V01T7uD" target="_blank">a sensor module</a> at the <a href="https://cross.ucsc.edu/" target="_blank">Center for Research in Open Source Software (CROSS)</a>, <a href="https://www.ucsc.edu/" target="_blank">University of California, Santa Cruz</a> under <a href="https://summerofcode.withgoogle.com/" target="_blank">GSoC'22</a>. Here, I am working on <a href="https://cross.ucsc.edu/projects/osavcpage.html" target="_blank">Open Source Autonomous Vehicle Controller (OSAVC)</a> project under my mentors. LiDAR and Camera could be considered the most important senses of autonomous vehicles. The camera can help to create a 2D map of the surroundings and LiDAR can help to make sense of depth and how far other objects are from the vehicle. This project implemented driver modules to establish reliable communication between a microcontroller and sensors/actuators. My job role is to develop driver modules for LiDAR, Servo Motor and Encoder.</p>									
-										<p>Github repository of OSAVC Project: <a href="https://github.com/uccross/open-source-autonomous-vehicle-controller" target="_blank">OSAVC</a><br>My contribution to the repository: <a href="https://github.com/uccross/open-source-autonomous-vehicle-controller/tree/dev_sensor_driver" target="_blank">dev_sensor_driver</a></p>
-										<p>Visit <a href="gsoc.html" target="_blank">here</a> to get more information regarding project.</p>						
+										<h2>State Diagram for Changing between the Modes</h2>
+										<img src="../images/mode-change-state-diagram.jpg" alt="No image available.">
+										<br><br>
+										On powering on the sensor module one can can below menu to choose from:
+										<br>
+										<center>
+										=====================================
+										<br>== Type a single character command ==
+										<br>=====================================
+										<br> S - Start continuous scanning mode
+										<br> X - Stop continuous scanning mode
+										<br> A, angle, range - A scan at angle (degrees) over range (degrees)
+										</center>
+										<h2>Useful Resources</h2>
+									<br><p>For more information refer <a href="https://docs.google.com/document/d/11n8f0wsvpb11dUyd7YGDXHZnW2rh-Ypx/edit?usp=sharing&ouid=115758239326845162531&rtpof=true&sd=true" target="_blank">documentation.</a></p>
 								</section>
-								<button style="float: right;" type="button"><a href="../gsoc.html">Back</a></button><br>
+								<button style="float: right;" type="button"><a href="../gsoc.html#modechange">Back</a></button><br>
 
 						</div>
 					</div>
