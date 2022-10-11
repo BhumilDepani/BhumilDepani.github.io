@@ -35,8 +35,23 @@
 							<!-- Content -->
 								<section>										
 										<h2>Range At Angle Mode</h2>
+										Sweeping the LiDAR back and forth and reporting the range and angle (from the LiDAR and encoder, respectively) (You are free to integrate it with any microcontroller you prefer and have at hand.)
+Panning here means, to move a LiDAR to focus on some particular objects, to get a sense of speed of these objects and filtering out the other background data. To rotate a LiDAR, we will use a servo motor.
+In this mode, we need to use servo motor to rotate a LiDAR to focus on some particular objects. At the same time, need to measure the range of LiDAR and the associate angle using the encoder.
+										<hr class="major" />
 										<h2>Constant Panning Mode</h2>
+										Mode to accept an angle input, move the servo to that angle, and report the range from the LiDAR.
+In this mode, a microcontroller will give command to servo motor to rotate at a specific angle. So, the servo motor should turn a specified angle and attached LiDAR would also move. And a specific measurement of range from LiDAR and associated angle from the encoder should be reported back to the microcontroller.
+
+										<hr class="major" />
 										<h2>Ideal Mode</h2>
+										In Ideal mode Servo Motor will remain static at 0 angle and with use specified frequency LiDAR will be triggered and it will measure the distance.
+										The default frequency is 20 milliseconds. After measuring 72 measurements one MAVLink message will be sent with all the 72 measurements.
+										<img src="../images/Idle Mode.jpg" class="center">
+										<br><br>
+										<h2>Useful Resources</h2>
+									<br><p>For more information refer <a href="https://docs.google.com/document/d/11n8f0wsvpb11dUyd7YGDXHZnW2rh-Ypx/edit?usp=sharing&ouid=115758239326845162531&rtpof=true&sd=true" target="_blank">documentation.</a></p>
+								
 								</section>
 								<button style="float: right;" type="button"><a href="../gsoc.html#modes">Back</a></button><br>
 
